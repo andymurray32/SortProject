@@ -3,7 +3,11 @@ package com.spartaglobal.sortingalgo;
 import java.util.ArrayList;
 
 public class Sorting {
-
+    /**
+     *
+     * @param arr
+     * @return String of sorted array
+     */
     public static StringBuilder printBubble(int[] arr) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < arr.length; i++)
