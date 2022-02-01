@@ -2,7 +2,7 @@ package com.spartaglobal.sortingalgo;
 
 import java.util.ArrayList;
 
-public class BubbleSort {
+public class BubbleSort  {
     /**
      *
      * @param arr
@@ -38,4 +38,5 @@ public class BubbleSort {
         //System.out.println("Swap Count: "+swapCount); // number of swaps
         //System.out.println("Swap log: "+a);
     }
+
 }

@@ -1,7 +1,7 @@
 package com.spartaglobal.sortingalgo;
 
 import static com.spartaglobal.sortingalgo.BubbleSort.bubbleSort;
-import static com.spartaglobal.sortingalgo.Sorting.sort;
+import static com.spartaglobal.sortingalgo.MergeSort.sort;
 
 public class SortManager {
     /**
