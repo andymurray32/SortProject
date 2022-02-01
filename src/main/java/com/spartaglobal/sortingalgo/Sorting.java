@@ -1,60 +1,66 @@
 package com.spartaglobal.sortingalgo;
 
-import java.util.ArrayList;
-
 public class Sorting {
-    /**
-     *
-     * @param arr
-     * @return String of sorted array
-     */
-    public static StringBuilder printBubble(int[] arr) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < arr.length; i++)
-            sb.append(arr[i]+" ");
-        return sb;
-    }
 
-        /**
-     *
-         * @param arr
-         */
-    public static void bubbleSort(int[] arr){
-        int swapCount = 0;
-        ArrayList<String> a= new ArrayList<>();
+    // Merges the left and right array
+    public static void merge(int arr[], int l, int m, int r)
+    {
+        // Find sizes of two subarrays to be merged
+        int size1 = m - l + 1;
+        int size2 = r - m;
 
-        //loop all numbers, -1 because of index
-        for (int i = 0; i < arr.length-1; i++){
-            boolean swap = false;
+        /* Create temp arrays */
+        int L[] = new int[size1];
+        int R[] = new int[size2];
 
-            //for that arr[i], compare to every number to the right of it, swapping if necessary
-            //max number of comparison but break will avoid some comparisons
-            for (int j = 0; j < arr.length-i-1; j++){
-                //if left bigger than right then they swap places and the bigger (left) continues
-                // comparing with the rest of the numbers on the right
-                if (arr[j] > arr[j+1])
-                {
-                    // swap the two numbers using third variable temp
-                    int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
-                    swap = true;
-                    swapCount++;
-                    a.add(arr[j]+" Swapped with: "+arr[j+1]); // keep track of swaps
-                }
+        /*Copy data to temp arrays*/
+        for (int i = 0; i < size1; ++i)
+            L[i] = arr[l + i];
+        for (int j = 0; j < size2; ++j)
+            R[j] = arr[m + 1 + j];
+
+        int i = 0, j = 0;
+        //merging the temp left and right arrays
+        // k= first index of merged array
+        int a = l;
+        while (i < size1 && j < size2) {
+            if (L[i] <= R[j]) {
+                arr[a] = L[i];
+                i++;
             }
-            //Stop comparing if it didnt cause any swaps
-            if (swap == false)
-                break;
+            else {
+                arr[a] = R[j];
+                j++;
+            }
+            a++;
         }
-        System.out.println("Swap Count: "+swapCount); // number of swaps
-        System.out.println("Swap log: "+a);
+
+        /* Copy remaining elements of L[] if any */
+        while (i < size1) {
+            arr[a] = L[i];
+            i++;
+            a++;
+        }
+
+        /* Copy remaining elements of R[] if any */
+        while (j < size2) {
+            arr[a] = R[j];
+            j++;
+            a++;
+        }
     }
 
-
-    public static void main(String[] args) {
-        int [] a={93,3,2,90,4,5,12,9};
-        bubbleSort(a);
-        System.out.println("Bubble sort"+printBubble(a));
+    // prep values for merge and call function
+    static void sort(int arr[], int l, int r)
+    {
+        if (l < r) {
+            //cal middle
+            int m =l+ (r-l)/2;
+            //sort first and last halve
+            sort(arr, l, m);
+            sort(arr, m + 1, r);
+            // Merge the sorted halves
+            merge(arr, l, m, r);
+        }
     }
 }

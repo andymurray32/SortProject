@@ -3,15 +3,14 @@ package com.spartaglobal.sortingalgo;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import javax.swing.*;
-
-import static com.spartaglobal.sortingalgo.Sorting.bubbleSort;
-import static com.spartaglobal.sortingalgo.Sorting.printBubble;
+import static com.spartaglobal.sortingalgo.BubbleSort.bubbleSort;
+import static com.spartaglobal.sortingalgo.SortManager.print;
+import static com.spartaglobal.sortingalgo.Sorting.sort;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SortingTest {
     @Test
-    @DisplayName("Given an empty String")
+    @DisplayName("Bubble: Given an empty String")
     public void bubbleSortEmptyString() {
         Sorting s = new Sorting();
         int[] a = {};
@@ -19,12 +18,12 @@ public class SortingTest {
         String expected= ("");
         //arrange
         //Act
-        String result= String.valueOf(printBubble(a));
+        String result= String.valueOf(print(a));
         //Assert
         assertEquals(expected, result);
     }
     @Test
-    @DisplayName("Given some numbers")
+    @DisplayName("Bubble: Postive numbers")
     public void bubbleSortCheck() {
         Sorting s = new Sorting();
         int[] a = {99, 88, 77, 102, 105};
@@ -32,8 +31,87 @@ public class SortingTest {
         String expected= ("77 88 99 102 105 ");
         //arrange
         //Act
-        String result= String.valueOf(printBubble(a));
+        String result= String.valueOf(print(a));
         //Assert
         assertEquals(expected, result);
     }
+    @Test
+    @DisplayName("Bubble:Negative number")
+    public void bubbleSortNegArray() {
+        Sorting s = new Sorting();
+        int[] a = {-3, -88, -77, -102, -105};
+        bubbleSort(a);
+        String expected= ("-105 -102 -88 -77 -3 ");
+        //arrange
+        //Act
+        String result= String.valueOf(print(a));
+        //Assert
+        assertEquals(expected, result);
+    }
+    @Test
+    @DisplayName("Bubble: Zero numbers array")
+    public void bubbleSortZeroArray() {
+        Sorting s = new Sorting();
+        int[] a = {0, 0, 0, 0, 0};
+        bubbleSort(a);
+        String expected= ("0 0 0 0 0 ");
+        //arrange
+        //Act
+        String result= String.valueOf(print(a));
+        //Assert
+        assertEquals(expected, result);
+    }
+    @Test
+    @DisplayName("Merge: Given an empty String")
+    public void MergeSortEmptyString() {
+        Sorting s = new Sorting();
+        int[] a = {};
+        sort(a,0,a.length-1);
+        String expected= ("");
+        //arrange
+        //Act
+        String result= String.valueOf(print(a));
+        //Assert
+        assertEquals(expected, result);
+    }
+    @Test
+    @DisplayName("Merge: Given some numbers")
+    public void mergeSortCheck() {
+        Sorting s = new Sorting();
+        int[] a = {99, 88, 77, 102, 105};
+        sort(a,0,a.length-1);
+        String expected= ("77 88 99 102 105 ");
+        //arrange
+        //Act
+        String result= String.valueOf(print(a));
+        //Assert
+        assertEquals(expected, result);
+    }
+    @Test
+    @DisplayName("Merge: Negative Numbers")
+    public void mergeSortNegArray() {
+        Sorting s = new Sorting();
+        int[] a = {-3, -88, -77, -102, -105};
+        sort(a,0,a.length-1);
+        String expected= ("-105 -102 -88 -77 -3 ");
+        //arrange
+        //Act
+        String result= String.valueOf(print(a));
+        //Assert
+        assertEquals(expected, result);
+    }
+    @Test
+    @DisplayName("Merge: full zero array")
+    public void mergeSortZeroArray() {
+        Sorting s = new Sorting();
+        int[] a = {0, 0, 0, 0, 0};
+        sort(a,0,a.length-1);
+        String expected= ("0 0 0 0 0 ");
+        //arrange
+        //Act
+        String result= String.valueOf(print(a));
+        //Assert
+        assertEquals(expected, result);
+    }
+
 }
