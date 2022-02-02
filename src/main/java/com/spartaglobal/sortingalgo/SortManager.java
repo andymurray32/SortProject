@@ -1,9 +1,15 @@
 package com.spartaglobal.sortingalgo;
 
-import java.util.Scanner;
+import com.spartaglobal.sortingalgo.Controller.SortController;
+import com.spartaglobal.sortingalgo.Model.BubbleMethod;
+import com.spartaglobal.sortingalgo.Model.MergeMethod;
+import com.spartaglobal.sortingalgo.Model.Method;
+import com.spartaglobal.sortingalgo.Model.MethodSort;
+import com.spartaglobal.sortingalgo.View.SortView;
 
-import static com.spartaglobal.sortingalgo.BubbleSort.bubbleSort;
-import static com.spartaglobal.sortingalgo.MergeSort.sort;
+
+import static com.spartaglobal.sortingalgo.Model.BubbleSort.bubbleSort;
+import static com.spartaglobal.sortingalgo.Model.MergeSort.sort;
 
 public class SortManager {
     /**
@@ -31,6 +37,8 @@ public class SortManager {
     }
 
     public static void main(String[] args) {
+
+
         int [] a={93,3,2,90,4,5,12,9};
         System.out.println("First Array: "+print(a));
         bubbleSort(a);
@@ -42,10 +50,11 @@ public class SortManager {
         sort(arr, 0, arr.length - 1);
         System.out.println("Merge sort: "+print(arr));
         /*-----------------------------------------------*/
-        Scanner s= new Scanner(System.in);
+
+
         int [] p={45,3,5,90,1,4};
-        System.out.print("Please enter the sort method you would like to use: ");
-        String desiredMethodType= s.next();
+        SortView v= new SortView();
+        String desiredMethodType= v.getDesiredMethodType();
         Method m=getMethod(desiredMethodType);
         System.out.println("Before sort:"+print(p));
         m.sort(p);

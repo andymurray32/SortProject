@@ -1,4 +1,4 @@
-package com.spartaglobal.sortingalgo;
+package com.spartaglobal.sortingalgo.Model;
 
 public class MergeSort implements Method{
 
@@ -51,7 +51,7 @@ public class MergeSort implements Method{
         }
 
         // prep values for merge and call function
-        static void sort(int arr[], int l, int r)
+        public static void sort(int arr[], int l, int r)
         {
             if (l < r) {
                 //cal middle

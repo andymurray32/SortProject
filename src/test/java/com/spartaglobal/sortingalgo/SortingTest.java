@@ -1,11 +1,13 @@
 package com.spartaglobal.sortingalgo;
 
+import com.spartaglobal.sortingalgo.Model.BubbleSort;
+import com.spartaglobal.sortingalgo.Model.MergeSort;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.spartaglobal.sortingalgo.BubbleSort.bubbleSort;
+import static com.spartaglobal.sortingalgo.Model.BubbleSort.bubbleSort;
 import static com.spartaglobal.sortingalgo.SortManager.print;
-import static com.spartaglobal.sortingalgo.MergeSort.sort;
+import static com.spartaglobal.sortingalgo.Model.MergeSort.sort;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SortingTest {

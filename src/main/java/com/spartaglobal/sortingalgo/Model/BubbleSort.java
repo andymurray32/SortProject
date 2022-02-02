@@ -1,4 +1,4 @@
-package com.spartaglobal.sortingalgo;
+package com.spartaglobal.sortingalgo.Model;
 
 import java.util.ArrayList;
 

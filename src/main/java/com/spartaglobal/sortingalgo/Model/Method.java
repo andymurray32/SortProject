@@ -1,4 +1,4 @@
-package com.spartaglobal.sortingalgo;
+package com.spartaglobal.sortingalgo.Model;
 
 public interface Method {
     void sort(int[] array);
