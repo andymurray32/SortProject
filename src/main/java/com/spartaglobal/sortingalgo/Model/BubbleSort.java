@@ -1,8 +1,12 @@
 package com.spartaglobal.sortingalgo.Model;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 
 public class BubbleSort implements Method {
+    private static Logger logger = LogManager.getLogger("BubbleSort logger:");
     /**
      * @param arr
      */
@@ -35,6 +39,7 @@ public class BubbleSort implements Method {
         }
         //System.out.println("Swap Count: "+swapCount); // number of swaps
         //System.out.println("Swap log: "+a);
+        logger.warn("Sort is complete!");
     }
 
     @Override

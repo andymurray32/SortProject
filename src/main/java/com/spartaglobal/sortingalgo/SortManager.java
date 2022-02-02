@@ -1,13 +1,20 @@
 package com.spartaglobal.sortingalgo;
 
 import com.spartaglobal.sortingalgo.Controller.SortController;
+import com.spartaglobal.sortingalgo.Model.BubbleSort;
+import com.spartaglobal.sortingalgo.Model.MergeSort;
 import com.spartaglobal.sortingalgo.View.SortView;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+
+import java.lang.reflect.Method;
 
 import static com.spartaglobal.sortingalgo.Model.BubbleSort.bubbleSort;
 import static com.spartaglobal.sortingalgo.Model.MergeSort.sort;
 
 public class SortManager {
+
     /**
      * @param arr
      * @return String of sorted array
@@ -19,19 +26,20 @@ public class SortManager {
         return sb;
     }
 
+    private static Logger logger = LogManager.getLogger("Method logger:");
 
     public static void main(String[] args) {
 
-
+        BubbleSort b= new BubbleSort();
         int[] a = {93, 3, 2, 90, 4, 5, 12, 9};
         System.out.println("First Array: " + print(a));
-        bubbleSort(a);
+        b.sort(a);
         System.out.println("Bubble sort: " + print(a));
 
         int arr[] = {12, 11, 13, 5, 6, 7};
-
+        MergeSort m= new MergeSort();
         System.out.println("Given Array: " + print(arr));
-        sort(arr, 0, arr.length - 1);
+        m.sort(arr);
         System.out.println("Merge sort: " + print(arr));
         /*-----------------------------------------------*/
 

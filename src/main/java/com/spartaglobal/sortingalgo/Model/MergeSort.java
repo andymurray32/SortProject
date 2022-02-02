@@ -1,6 +1,10 @@
 package com.spartaglobal.sortingalgo.Model;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class MergeSort implements Method {
+    private static Logger logger = LogManager.getLogger("MergeSort logger:");
 
     // Merges the left and right array
     public static void merge(int arr[], int l, int m, int r) {
@@ -46,6 +50,7 @@ public class MergeSort implements Method {
             j++;
             a++;
         }
+
     }
 
     // prep values for merge and call function
@@ -61,9 +66,11 @@ public class MergeSort implements Method {
         }
     }
 
+
     @Override
     public void sort(int[] array) {
         sort(array, 0, array.length - 1);
+        logger.warn("Sort is complete!");
     }
 }
 
