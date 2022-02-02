@@ -2,6 +2,7 @@ package com.spartaglobal.sortingalgo;
 
 import com.spartaglobal.sortingalgo.Model.BubbleSort;
 import com.spartaglobal.sortingalgo.Model.MergeSort;
+import com.spartaglobal.sortingalgo.Model.Method;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -115,5 +116,4 @@ public class SortingTest {
         //Assert
         assertEquals(expected, result);
     }
-
 }

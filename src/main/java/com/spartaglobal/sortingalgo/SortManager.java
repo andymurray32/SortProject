@@ -37,10 +37,10 @@ public class SortManager {
 
 
         int[] p = {45, 3, 5, 90, 1, 4};
-        System.out.println("\n Before sort:" + print(p));
+        System.out.println("\n Before sort: " + print(p));
         SortView v = new SortView();
         SortController sc = new SortController();
         sc.initiateSort(p, v.getDesiredMethodType());
-        System.out.println("After Sort" + print(p));
+        System.out.println("After Sort: " + print(p));
     }
 }
