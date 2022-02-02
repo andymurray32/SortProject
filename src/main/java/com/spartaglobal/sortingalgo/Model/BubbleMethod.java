@@ -1,6 +1,6 @@
 package com.spartaglobal.sortingalgo.Model;
 
-public class BubbleMethod extends MethodSort{
+public class BubbleMethod extends MethodSort {
 
     @Override
     public Method getInstance() {
