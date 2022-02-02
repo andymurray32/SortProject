@@ -1,6 +1,6 @@
 package com.spartaglobal.sortingalgo;
 
-public class MergeSort {
+public class MergeSort implements Method{
 
         // Merges the left and right array
         public static void merge(int arr[], int l, int m, int r)
@@ -63,5 +63,10 @@ public class MergeSort {
                 merge(arr, l, m, r);
             }
         }
+
+    @Override
+    public void sort(int[] array) {
+        sort(array,0, array.length-1);
     }
+}
 

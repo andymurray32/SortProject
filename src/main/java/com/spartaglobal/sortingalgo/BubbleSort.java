@@ -2,7 +2,7 @@ package com.spartaglobal.sortingalgo;
 
 import java.util.ArrayList;
 
-public class BubbleSort  {
+public class BubbleSort implements Method {
     /**
      *
      * @param arr
@@ -39,4 +39,8 @@ public class BubbleSort  {
         //System.out.println("Swap log: "+a);
     }
 
+    @Override
+    public void sort(int[] array) {
+        bubbleSort(array);
+    }
 }
