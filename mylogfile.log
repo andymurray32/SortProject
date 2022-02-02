@@ -75,3 +75,255 @@ FILE [WARN ] 2022-02-02 14:47:01,578 main MergeSort logger: - Sort is complete!
 FILE [WARN ] 2022-02-02 14:47:01,580 main MergeSort logger: - Sort is complete!
 FILE [WARN ] 2022-02-02 14:47:01,585 main BubbleSort logger: - Sort is complete!
 FILE [WARN ] 2022-02-02 14:47:01,590 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:15,610 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:15,638 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:15,643 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:15,646 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:15,649 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:15,652 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:15,655 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:15,658 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:15,661 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:15,664 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:27,072 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:37:27,077 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:38:09,954 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:38:09,960 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:38:12,652 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:40:03,079 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:40:03,088 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:42:42,541 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:42:42,555 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:49:11,287 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:49:11,296 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:50:09,658 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:50:09,662 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:50:30,237 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:50:30,241 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:52:02,001 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:52:02,006 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:52:15,313 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:52:15,320 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:52:25,295 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:52:25,300 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:55:23,040 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:55:23,049 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:58:55,475 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:58:55,482 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:59:14,574 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:59:14,578 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:59:22,066 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:59:22,070 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:59:34,098 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:59:34,104 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:59:56,179 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 15:59:56,185 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:01:29,571 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:01:29,576 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:01:38,480 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:01:38,485 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:05:17,991 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:05:17,996 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:06:37,327 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:06:37,334 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:07:09,469 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:07:09,476 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:10:00,161 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:10:00,166 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:10:49,771 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:10:49,777 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:10:58,959 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:12:58,531 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:12:58,534 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:14:35,593 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:14:35,600 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:15:47,411 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:15:47,420 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:15:57,637 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:15:57,642 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:16:12,922 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:16:12,932 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:16:14,978 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:16:33,483 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:16:33,490 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:20:12,418 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:20:12,426 main MergeSort logger: - Sort is complete!
+FILE [ERROR] 2022-02-02 16:20:17,534 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "jfidsjf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:35) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [WARN ] 2022-02-02 16:21:08,071 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:21:08,076 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:21:50,220 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:21:50,224 main MergeSort logger: - Sort is complete!
+FILE [ERROR] 2022-02-02 16:21:52,012 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "sdfsdf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:30) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:21:54,692 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "fsdfsddf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:30) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:22:02,900 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "snadsd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:35) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [WARN ] 2022-02-02 16:22:13,120 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:22:13,125 main MergeSort logger: - Sort is complete!
+FILE [ERROR] 2022-02-02 16:22:20,141 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "cadcnjas"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:35) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [WARN ] 2022-02-02 16:22:25,419 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:22:25,424 main MergeSort logger: - Sort is complete!
+FILE [ERROR] 2022-02-02 16:22:27,173 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "asdasjbdk"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:30) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:22:28,980 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "basdkjasjd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:30) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:22:30,473 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "ansdjnas"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:30) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [WARN ] 2022-02-02 16:31:56,419 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:31:56,423 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:32:02,777 main MergeSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:32:11,152 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:32:11,158 main MergeSort logger: - Sort is complete!
+FILE [ERROR] 2022-02-02 16:32:32,280 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "smglfdmg"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.checkNum(SortView.java:20) ~[classes/:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:39) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [WARN ] 2022-02-02 16:34:01,455 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:34:01,459 main MergeSort logger: - Sort is complete!
+FILE [ERROR] 2022-02-02 16:34:12,460 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "sfmkdsl"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.checkNum(SortView.java:19) ~[classes/:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:38) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [WARN ] 2022-02-02 16:34:20,504 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:34:20,509 main MergeSort logger: - Sort is complete!
+FILE [ERROR] 2022-02-02 16:34:22,033 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "svnjldkns"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:37) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:34:23,306 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "bjksdcj"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:37) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:34:25,123 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "jcbksdjkcs"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:37) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:34:26,799 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "csdjkcs"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:37) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [WARN ] 2022-02-02 16:34:46,665 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:34:46,669 main MergeSort logger: - Sort is complete!
+FILE [ERROR] 2022-02-02 16:34:48,609 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "sdfsdf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:37) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:34:51,820 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "sbhjfds"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.checkNum(SortView.java:19) ~[classes/:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:38) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:34:53,511 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "sjdnfjks"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:37) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [WARN ] 2022-02-02 16:35:55,519 main BubbleSort logger: - Sort is complete!
+FILE [WARN ] 2022-02-02 16:35:55,525 main MergeSort logger: - Sort is complete!
+FILE [ERROR] 2022-02-02 16:35:57,294 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "asdasd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:30) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:35:58,836 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "ljnsadk"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:30) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:36:00,104 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "sandjkas"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:30) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:36:03,847 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "lfnsdljf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:34) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [ERROR] 2022-02-02 16:36:06,682 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "ljnfjksndf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:34) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:51) [classes/:?]
+FILE [WARN ] 2022-02-02 16:36:17,492 main MergeSort logger: - Sort is complete!
