@@ -70,7 +70,7 @@ public class MergeSort implements Method {
     @Override
     public void sort(int[] array) {
         sort(array, 0, array.length - 1);
-        logger.warn("Sort is complete!");
+        logger.info("Sort is complete!");
     }
 }
 

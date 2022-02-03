@@ -7,9 +7,7 @@ import java.util.ArrayList;
 
 public class BubbleSort implements Method {
     private static Logger logger = LogManager.getLogger("BubbleSort logger:");
-    /**
-     * @param arr
-     */
+
     public static void bubbleSort(int[] arr) {
         int swapCount = 0;
         ArrayList<String> a = new ArrayList<>();
@@ -39,7 +37,7 @@ public class BubbleSort implements Method {
         }
         //System.out.println("Swap Count: "+swapCount); // number of swaps
         //System.out.println("Swap log: "+a);
-        logger.warn("Sort is complete!");
+        logger.info("Sort is complete!");
     }
 
     @Override

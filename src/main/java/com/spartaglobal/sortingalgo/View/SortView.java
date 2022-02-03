@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class SortView {
     private static Logger logger = LogManager.getLogger("SortView logger:");
+
     enum MethodEnum {
         BubbleSort,
         MergeSort,
@@ -38,6 +39,7 @@ public class SortView {
                     case 2 -> desiredMethodType = "MergeSort";
                     case 3 -> System.exit(0);
                 }
+                logger.info("User has selected a Sort method");
             } catch (Exception e) {
                 System.out.println("You must enter a valid number to the corresponding sort.");
                 logger.error("Invalid input to the console for getDesiredMethodType", e);
@@ -46,9 +48,5 @@ public class SortView {
         }
         while (numChoice == 0);
         return desiredMethodType;
-//        setBaseClass();
-//        Scanner s = new Scanner(System.in);
-//        String desiredMethodType = s.next();
-//        return desiredMethodType;
     }
 }
