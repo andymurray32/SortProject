@@ -16,8 +16,12 @@ public class SortManager {
      */
     public static StringBuilder print(int[] arr) {
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < arr.length; i++)
+        for (int i = 0; i < arr.length; i++) {
             sb.append(arr[i] + " ");
+        }
+        if(sb.isEmpty()==Boolean.FALSE) {
+            sb.deleteCharAt(sb.lastIndexOf(" "));
+        }
         return sb;
     }
 
@@ -36,7 +40,7 @@ public class SortManager {
         System.out.println("Given Array: " + print(arr));
         m.sort(arr);
         System.out.println("Merge sort: " + print(arr));
-        /*-----------------------------------------------*/
+        /* -----------------------------------------------*/
 
 
         int[] p = {45, 3, 5, 90, 1, 4};
@@ -44,7 +48,7 @@ public class SortManager {
         SortView v = new SortView();
         SortController sc = new SortController();
 
-        // ask user for 
+        // ask user for
         sc.initiateSort(p, v.getDesiredMethodType());
         System.out.println("After Sort: " + print(p));
     }

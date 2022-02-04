@@ -13,6 +13,13 @@ public class SortView {
         MergeSort,
         Exit
     }
+    // enum for user choice
+
+
+    // getarraysize
+    //getChoice (random or input) invokes:
+    //get input
+    //get random input
 
     public String getDesiredMethodType() {
         int numChoice = 0;

@@ -20,6 +20,8 @@ public class SortingTest {
         //arrange
         //Act
         String result= String.valueOf(print(a));
+        System.out.println(result);
+        System.out.println(expected);
         //Assert
         assertEquals(expected, result);
     }
@@ -29,7 +31,7 @@ public class SortingTest {
         Method s = new BubbleSort();
         int[] a = {99, 88, 77, 102, 105};
         s.sort(a);
-        String expected= ("77 88 99 102 105 ");
+        String expected= ("77 88 99 102 105");
         //arrange
         //Act
         String result= String.valueOf(print(a));
@@ -42,7 +44,7 @@ public class SortingTest {
         Method s = new BubbleSort();
         int[] a = {-3, -88, -77, -102, -105};
         s.sort(a);
-        String expected= ("-105 -102 -88 -77 -3 ");
+        String expected= ("-105 -102 -88 -77 -3");
         //arrange
         //Act
         String result= String.valueOf(print(a));
@@ -55,7 +57,7 @@ public class SortingTest {
         Method s = new BubbleSort();
         int[] a = {0, 0, 0, 0, 0};
         s.sort(a);
-        String expected= ("0 0 0 0 0 ");
+        String expected= ("0 0 0 0 0");
         //arrange
         //Act
         String result= String.valueOf(print(a));
@@ -68,7 +70,7 @@ public class SortingTest {
         Method s = new BubbleSort();
         int[] a = {1, 2, 3, 4, 5};
         s.sort(a);
-        String expected= ("1 2 3 4 5 ");
+        String expected= ("1 2 3 4 5");
         //arrange
         //Act
         String result= String.valueOf(print(a));
@@ -94,7 +96,7 @@ public class SortingTest {
         Method s = new MergeSort();
         int[] a = {99, 88, 77, 102, 105};
         s.sort(a);
-        String expected= ("77 88 99 102 105 ");
+        String expected= ("77 88 99 102 105");
         //arrange
         //Act
         String result= String.valueOf(print(a));
@@ -107,7 +109,7 @@ public class SortingTest {
         Method s = new MergeSort();
         int[] a = {-3, -88, -77, -102, -105};
         s.sort(a);
-        String expected= ("-105 -102 -88 -77 -3 ");
+        String expected= ("-105 -102 -88 -77 -3");
         //arrange
         //Act
         String result= String.valueOf(print(a));
@@ -120,7 +122,7 @@ public class SortingTest {
         Method s = new MergeSort();
         int[] a = {0, 0, 0, 0, 0};
         s.sort(a);
-        String expected= ("0 0 0 0 0 ");
+        String expected= ("0 0 0 0 0");
         //arrange
         //Act
         String result= String.valueOf(print(a));
@@ -133,7 +135,7 @@ public class SortingTest {
         Method s = new BubbleSort();
         int[] a = {1, 2, 3, 4, 5};
         s.sort(a);
-        String expected= ("1 2 3 4 5 ");
+        String expected= ("1 2 3 4 5");
         //arrange
         //Act
         String result= String.valueOf(print(a));
