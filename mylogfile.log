@@ -563,3 +563,245 @@ FILE [INFO ] 2022-02-06 14:15:46,828 main SortView logger: - User has selected t
 FILE [INFO ] 2022-02-06 14:15:47,784 main SortView logger: - User has selected a Sort method
 FILE [INFO ] 2022-02-06 14:15:47,784 main Sort Controller logger: - Sort Initiated!
 FILE [INFO ] 2022-02-06 14:15:47,784 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 19:15:56,273 main SortView logger: - User has selected an array size of:5
+FILE [INFO ] 2022-02-06 19:16:02,196 main SortView logger: - User has selected toEnter input manually
+FILE [INFO ] 2022-02-06 19:16:03,671 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 19:16:03,671 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 19:16:03,672 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 19:18:05,660 main SortView logger: - User has selected an array size of: 4
+FILE [INFO ] 2022-02-06 19:18:07,377 main SortView logger: - User has selected to Randomly generate array
+FILE [INFO ] 2022-02-06 19:18:08,439 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 19:18:08,440 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 19:18:08,443 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 19:18:08,443 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 19:36:46,967 main SortView logger: - User has selected an array size of: 2
+FILE [INFO ] 2022-02-06 19:36:47,512 main SortView logger: - User has selected to Randomly generate array
+FILE [INFO ] 2022-02-06 19:36:47,967 main SortView logger: - User has selected an array size of: 2
+FILE [INFO ] 2022-02-06 19:36:49,369 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 19:36:49,370 main Sort Controller logger: - Array Initiated!
+FILE [INFO ] 2022-02-06 19:36:49,371 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 19:36:49,371 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 19:53:03,236 main SortView logger: - User has selected an array size of: 30
+FILE [INFO ] 2022-02-06 19:53:04,966 main SortView logger: - User has selected to Enter input manually
+FILE [INFO ] 2022-02-06 19:53:07,126 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:08,390 main SortView logger: - User has selected 2 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:09,057 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:09,537 main SortView logger: - User has selected 4 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:10,018 main SortView logger: - User has selected 5 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:10,548 main SortView logger: - User has selected 6 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:11,015 main SortView logger: - User has selected 7 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:11,535 main SortView logger: - User has selected 8 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:12,041 main SortView logger: - User has selected 9 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:14,629 main SortView logger: - User has selected 10 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:15,376 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:17,125 main SortView logger: - User has selected 12 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:17,609 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:19,472 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:20,143 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:20,659 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:21,119 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:21,555 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:21,920 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:23,939 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:24,814 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:25,416 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:25,781 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:27,025 main SortView logger: - User has selected 0 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:28,830 main SortView logger: - User has selected 123 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:29,381 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:29,912 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:30,308 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:30,653 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:30,964 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:31,239 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:31,459 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:31,639 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:31,845 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:32,022 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:32,280 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:32,556 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:32,746 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:32,937 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:33,127 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:33,327 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:33,663 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:33,948 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:34,153 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:34,323 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:34,503 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:34,704 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:34,855 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:35,026 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:35,195 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:35,355 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:35,530 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:35,695 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:35,871 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:36,184 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:36,391 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:36,561 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:36,732 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:36,912 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:37,081 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:37,237 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:37,398 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:37,558 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:37,724 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:37,878 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:38,070 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:38,229 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:38,424 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:38,609 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:38,778 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:38,945 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:39,108 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:39,250 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:39,416 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:39,594 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:39,752 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:39,927 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:40,098 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:40,282 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:40,455 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:40,627 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:40,803 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:40,974 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:41,154 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:41,328 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:41,509 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:41,689 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:41,859 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:42,025 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:42,185 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:42,355 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:42,536 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:42,718 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:42,876 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:43,037 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:43,196 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:43,382 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:43,572 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:43,742 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:43,933 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:44,098 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:44,262 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:44,583 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:44,739 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:44,899 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:45,075 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:45,229 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:45,409 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:45,580 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:45,745 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:45,915 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:46,251 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:46,439 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:46,601 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:46,761 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:46,940 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:47,103 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:47,448 main SortView logger: - User has selected 31 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:48,050 main SortView logger: - User has selected 12323 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:48,270 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:48,469 main SortView logger: - User has selected 213 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:48,675 main SortView logger: - User has selected 21 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:48,924 main SortView logger: - User has selected 132 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:49,188 main SortView logger: - User has selected 132 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:49,395 main SortView logger: - User has selected 132 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:49,733 main SortView logger: - User has selected 13 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:49,916 main SortView logger: - User has selected 123 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:50,069 main SortView logger: - User has selected 132 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:50,226 main SortView logger: - User has selected 123 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:50,567 main SortView logger: - User has selected 123 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:50,742 main SortView logger: - User has selected 123 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:50,888 main SortView logger: - User has selected 123 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:51,213 main SortView logger: - User has selected 123 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:51,363 main SortView logger: - User has selected 123 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:51,524 main SortView logger: - User has selected 213 as the 0 Index
+FILE [INFO ] 2022-02-06 19:53:51,659 main SortView logger: - User has selected 2 as the 0 Index
+FILE [INFO ] 2022-02-06 19:54:07,316 main SortView logger: - User has selected an array size of: 3
+FILE [INFO ] 2022-02-06 19:54:10,158 main SortView logger: - User has selected to Enter input manually
+FILE [INFO ] 2022-02-06 19:54:11,733 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 19:54:11,733 main Sort Controller logger: - Array Initiated!
+FILE [INFO ] 2022-02-06 19:54:11,737 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 19:54:11,737 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 19:54:11,737 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 19:56:36,377 main SortView logger: - User has selected an array size of: 3
+FILE [INFO ] 2022-02-06 19:56:38,054 main SortView logger: - User has selected to Enter input manually
+FILE [INFO ] 2022-02-06 19:56:50,360 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 19:56:50,360 main Sort Controller logger: - Array Initiated!
+FILE [INFO ] 2022-02-06 19:56:50,362 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 19:56:50,362 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 19:58:00,575 main SortView logger: - User has selected an array size of: 3
+FILE [INFO ] 2022-02-06 19:58:05,690 main SortView logger: - User has selected to Randomly generate array
+FILE [INFO ] 2022-02-06 19:58:06,711 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 19:58:06,711 main Sort Controller logger: - Array Initiated!
+FILE [INFO ] 2022-02-06 19:58:06,713 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 19:58:06,713 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 20:00:31,648 main SortView logger: - User has selected an array size of: 5
+FILE [INFO ] 2022-02-06 20:00:33,149 main SortView logger: - User has selected to Enter input manually
+FILE [INFO ] 2022-02-06 20:00:35,474 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 20:00:37,697 main SortView logger: - User has selected 2 as the 0 Index
+FILE [INFO ] 2022-02-06 20:00:39,012 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 20:00:40,014 main SortView logger: - User has selected 4 as the 0 Index
+FILE [INFO ] 2022-02-06 20:00:41,421 main SortView logger: - User has selected 5 as the 0 Index
+FILE [INFO ] 2022-02-06 20:00:42,337 main SortView logger: - User has selected 6 as the 0 Index
+FILE [INFO ] 2022-02-06 20:00:42,978 main SortView logger: - User has selected 7 as the 0 Index
+FILE [INFO ] 2022-02-06 20:00:43,584 main SortView logger: - User has selected 8 as the 0 Index
+FILE [INFO ] 2022-02-06 20:00:44,090 main SortView logger: - User has selected 9 as the 0 Index
+FILE [INFO ] 2022-02-06 20:00:44,627 main SortView logger: - User has selected 0 as the 0 Index
+FILE [INFO ] 2022-02-06 20:02:57,707 main SortView logger: - User has selected an array size of: 3
+FILE [INFO ] 2022-02-06 20:02:59,000 main SortView logger: - User has selected to Enter input manually
+FILE [INFO ] 2022-02-06 20:03:00,063 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:01,609 main SortView logger: - User has selected 2 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:02,411 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:04,113 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:04,732 main SortView logger: - User has selected 2 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:05,194 main SortView logger: - User has selected 2 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:05,620 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:06,017 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:06,371 main SortView logger: - User has selected 2 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:06,647 main SortView logger: - User has selected 4 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:06,987 main SortView logger: - User has selected 4 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:07,403 main SortView logger: - User has selected 5 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:07,687 main SortView logger: - User has selected 45 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:08,239 main SortView logger: - User has selected 45 as the 0 Index
+FILE [INFO ] 2022-02-06 20:03:08,696 main SortView logger: - User has selected 45 as the 0 Index
+FILE [INFO ] 2022-02-06 20:04:57,115 main SortView logger: - User has selected an array size of: 3
+FILE [INFO ] 2022-02-06 20:04:58,602 main SortView logger: - User has selected to Enter input manually
+FILE [INFO ] 2022-02-06 20:04:59,931 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 20:05:01,441 main SortView logger: - User has selected 2 as the 0 Index
+FILE [INFO ] 2022-02-06 20:05:02,357 main SortView logger: - User has selected 3 as the 0 Index
+FILE [INFO ] 2022-02-06 20:05:52,003 main SortView logger: - User has selected an array size of: 3
+FILE [INFO ] 2022-02-06 20:05:53,149 main SortView logger: - User has selected to Enter input manually
+FILE [INFO ] 2022-02-06 20:05:55,133 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 20:05:56,466 main SortView logger: - User has selected 1 as the 1 Index
+FILE [INFO ] 2022-02-06 20:05:57,358 main SortView logger: - User has selected 1 as the 2 Index
+FILE [INFO ] 2022-02-06 20:05:59,232 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 20:05:59,232 main Sort Controller logger: - Array Initiated!
+FILE [INFO ] 2022-02-06 20:05:59,234 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 20:05:59,235 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 20:05:59,235 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 20:18:44,393 main SortView logger: - User has selected an array size of: 4
+FILE [INFO ] 2022-02-06 20:18:46,154 main SortView logger: - User has selected to Randomly generate array
+FILE [INFO ] 2022-02-06 20:18:53,363 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 20:18:53,364 main Sort Controller logger: - Array Initiated!
+FILE [INFO ] 2022-02-06 20:18:53,365 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 20:18:53,365 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 20:19:55,313 main SortView logger: - User has selected an array size of: 3
+FILE [INFO ] 2022-02-06 20:19:56,607 main SortView logger: - User has selected to Enter input manually
+FILE [INFO ] 2022-02-06 20:19:58,287 main SortView logger: - User has selected 1 as the 0 Index
+FILE [INFO ] 2022-02-06 20:19:58,903 main SortView logger: - User has selected 2 as the 1 Index
+FILE [INFO ] 2022-02-06 20:19:59,896 main SortView logger: - User has selected 3 as the 2 Index
+FILE [INFO ] 2022-02-06 20:20:48,091 main SortView logger: - User has selected an array size of: 10
+FILE [INFO ] 2022-02-06 20:20:49,690 main SortView logger: - User has selected to Randomly generate array
+FILE [INFO ] 2022-02-06 20:20:59,233 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 20:20:59,234 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 20:20:59,234 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 20:20:59,234 main Sort Controller logger: - Sort Complete!
+FILE [INFO ] 2022-02-06 20:22:05,795 main SortView logger: - User has selected an array size of: 12
+FILE [INFO ] 2022-02-06 20:22:06,862 main SortView logger: - User has selected to Randomly generate array
+FILE [INFO ] 2022-02-06 20:22:08,745 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 20:22:08,747 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 20:22:08,747 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 20:22:08,747 main Sort Controller logger: - Sort Complete!

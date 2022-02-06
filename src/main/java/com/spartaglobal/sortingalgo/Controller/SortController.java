@@ -7,6 +7,7 @@ import com.spartaglobal.sortingalgo.Model.MethodSort;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+
 public class SortController {
     private static Logger logger = LogManager.getLogger("Sort Controller logger:");
 
@@ -23,9 +24,12 @@ public class SortController {
         return ms.getInstance();
     }
 
-    public void initiateSort(int[] array, String desiredMethodType){
-        logger.info("Sort Initiated!");
+
+    public void initiateSort(int[] array,  String desiredMethodType){
+
         Method m = getMethod(desiredMethodType);
+        logger.info("Sort Initiated!");
         m.sort(array);
+        logger.info("Sort Complete!");
     }
 }

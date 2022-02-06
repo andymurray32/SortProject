@@ -3,6 +3,7 @@ package com.spartaglobal.sortingalgo.View;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class SortView {
@@ -28,7 +29,7 @@ public class SortView {
             try {
                 Scanner scanner = new Scanner(System.in);
                 arrSize = Integer.parseInt(scanner.next());
-                logger.info("User has selected an array size of:"+arrSize);
+                logger.info("User has selected an array size of: "+arrSize);
             } catch (Exception e) {
                 System.out.println("You must enter a valid number to the corresponding sort.");
                 logger.error("Invalid input to the console for choice for array", e);
@@ -38,17 +39,38 @@ public class SortView {
         while (arrSize == 0);
         return arrSize;
     }
+    public int getNextInt(int j) {
+            int a = 0;
+            int x=1;
+            do {
+            System.out.println("Please enter the "+(j)+" Index");
+            try {
+                Scanner scanner = new Scanner(System.in);
+                a = Integer.parseInt(scanner.next());
+                logger.info("User has selected "+a+" as the "+j+" Index");
+            } catch (Exception e) {
+                System.out.println("You must enter a valid number to the corresponding sort.");
+                logger.error("Invalid input to the console for choice for array", e);
+                x=0;
+            }
+        }
+        while (x == 0);
+        return a;
+    }
 
     // getarraysize
     //getChoice (random or input) invokes:
     //get input
     //get random input
-    public String arrChoice() {
+    public int[] arrChoice() {
+        Random rd = new Random(); // creating Random object
+        int arraysize= arrSize();
+        int[] arr = new int[arraysize];
         int numChoice = 0;
         String arrchoice = null;
         do {
             System.out.println("Please select whether you would like to enter your values or randomly generate numbers");
-            int i = 1;
+            int i=1;
             //list of enum
             for (UserChoice value : UserChoice.values()) {
                 System.out.println(i + ": " + value.name());
@@ -63,11 +85,22 @@ public class SortView {
                     numChoice=Integer.parseInt(a.next());
                 }
                 switch (numChoice) {
-                    case 1 -> arrchoice = "Enter input manually";
-                    case 2 -> arrchoice = "Randomly generate";
+                    case 1 -> arrchoice = "Enter input manually" ;
+                    case 2 -> arrchoice = "Randomly generate array";
                     case 3 -> System.exit(0);
                 }
-                logger.info("User has selected to"+ arrchoice);
+                logger.info("User has selected to "+ arrchoice);
+
+                if(arrchoice.equals("Randomly generate array")){
+                for (int k=0; k<arraysize;k++){
+                    arr[k] = rd.nextInt(); // storing random integers in an array
+                }
+                }
+                if(arrchoice.equals("Enter input manually")){
+                        for (int j=0; j<arraysize;j++){
+                            arr[j]= getNextInt(j);
+                        }
+                }
             } catch (Exception e) {
                 System.out.println("You must enter a valid number to the corresponding sort.");
                 logger.error("Invalid input to the console for choice for array", e);
@@ -75,7 +108,7 @@ public class SortView {
             }
         }
         while (numChoice == 0);
-        return arrchoice;
+        return arr;
     }
 
     public String getDesiredMethodType() {
@@ -113,4 +146,5 @@ public class SortView {
         while (numChoice == 0);
         return desiredMethodType;
     }
+
 }
