@@ -43,5 +43,6 @@ public class BubbleSort implements Method {
     @Override
     public void sort(int[] array) {
         bubbleSort(array);
+        logger.info("Sort is complete!");
     }
 }

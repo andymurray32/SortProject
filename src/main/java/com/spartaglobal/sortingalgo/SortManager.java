@@ -47,8 +47,11 @@ public class SortManager {
         System.out.println("\n Before sort: " + print(p));
         SortView v = new SortView();
         SortController sc = new SortController();
-
+        v.arrSize();
         // ask user for
+        v.arrChoice();
+        //System.out.println(v.arrSize());
+
         sc.initiateSort(p, v.getDesiredMethodType());
         System.out.println("After Sort: " + print(p));
     }
