@@ -37,7 +37,6 @@ public class BubbleSort implements Method {
         }
         //System.out.println("Swap Count: "+swapCount); // number of swaps
         //System.out.println("Swap log: "+a);
-        logger.info("Sort is complete!");
     }
 
     @Override

@@ -23,13 +23,37 @@ public class SortController {
         }
         return ms.getInstance();
     }
+    /**
+     * @param arr
+     * @return String of sorted array
+     */
+    public static StringBuilder print(int[] arr) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < arr.length; i++) {
+            sb.append(arr[i] + " ");
+        }
+        if(sb.isEmpty()==Boolean.FALSE) {
+            sb.deleteCharAt(sb.lastIndexOf(" "));
+        }
+        return sb;
+    }
 
 
     public void initiateSort(int[] array,  String desiredMethodType){
+        System.out.println("\n Before sort: " + print(array));
 
-        Method m = getMethod(desiredMethodType);
-        logger.info("Sort Initiated!");
-        m.sort(array);
-        logger.info("Sort Complete!");
+
+//        if(strBuilderMethodType.isEmpty()){
+//            logger.warn("Sort Initiated!");
+//        }
+        String[] a = desiredMethodType.split(" ");
+        for(int i=0; i<a.length;i++){
+            Method m= getMethod(a[i]);
+            logger.info("Sort Initiated for "+a[i]);
+            m.sort(array);
+            System.out.println("Using "+a[i]+" for sort:" + print(array));
+            //System.out.println("Time taken");
+        }
+
     }
 }

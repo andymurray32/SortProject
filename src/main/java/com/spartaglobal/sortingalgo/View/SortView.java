@@ -58,10 +58,7 @@ public class SortView {
         return a;
     }
 
-    // getarraysize
-    //getChoice (random or input) invokes:
-    //get input
-    //get random input
+
     public int[] arrChoice() {
         Random rd = new Random(); // creating Random object
         int arraysize= arrSize();
@@ -111,9 +108,10 @@ public class SortView {
         return arr;
     }
 
-    public String getDesiredMethodType() {
+    public StringBuilder getDesiredMethodType() {
         int numChoice = 0;
         String desiredMethodType = null;
+        StringBuilder str = new StringBuilder();
         do {
             System.out.println("Sorting Methods: ");
             System.out.println("Please select the number for sort desired");
@@ -132,19 +130,29 @@ public class SortView {
                     numChoice=Integer.parseInt(a.next());
                 }
                 switch (numChoice) {
-                    case 1 -> desiredMethodType = "BubbleSort";
-                    case 2 -> desiredMethodType = "MergeSort";
+                    case 1 -> str.append("BubbleSort");
+                    case 2 -> str.append("MergeSort");
                     case 3 -> System.exit(0);
                 }
                 logger.info("User has selected a Sort method");
+                System.out.println("Please enter the corresponding number to whether you'd like to compare to another method:");
+                System.out.println("1. Yes");
+                System.out.println("2. No");
+                Scanner scan = new Scanner(System.in);
+                if(Integer.parseInt(scan.next())==1 || scan.next().equalsIgnoreCase("Yes")){
+                    numChoice=0;
+                    str.append(" ");
+                }
+                else numChoice=1;
             } catch (Exception e) {
-                System.out.println("You must enter a valid number to the corresponding sort.");
+                System.out.println("You must enter a valid number from the list");
                 logger.error("Invalid input to the console for getDesiredMethodType", e);
                 numChoice=0;
             }
         }
         while (numChoice == 0);
-        return desiredMethodType;
+        System.out.println(str);
+        return str;
     }
 
 }
