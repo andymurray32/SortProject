@@ -28,7 +28,7 @@ public class SortManager {
     private static Logger logger = LogManager.getLogger("SortManager logger:");
 
     public static void main(String[] args) {
-
+        /* -----------------------------------------------
         Method b= new BubbleSort();
         int[] a = {93, 3, 2, 90, 4, 5, 12, 9};
         System.out.println("First Array: " + print(a));
@@ -40,7 +40,7 @@ public class SortManager {
         System.out.println("Given Array: " + print(arr));
         m.sort(arr);
         System.out.println("Merge sort: " + print(arr));
-        /* -----------------------------------------------*/
+        -------------------------------------------------*/
 
 
         int[] p = {45, 3, 5, 90, 1, 4};

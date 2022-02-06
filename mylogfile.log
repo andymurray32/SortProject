@@ -458,3 +458,39 @@ FILE [INFO ] 2022-02-04 15:09:11,661 main MergeSort logger: - Sort is complete!
 FILE [INFO ] 2022-02-04 15:09:11,669 main MergeSort logger: - Sort is complete!
 FILE [INFO ] 2022-02-04 15:09:11,673 main BubbleSort logger: - Sort is complete!
 FILE [INFO ] 2022-02-04 15:09:11,679 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 13:29:12,363 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 13:29:12,371 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 13:30:46,500 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 13:30:46,520 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 13:30:46,528 main MergeSort logger: - Sort is complete!
+FILE [ERROR] 2022-02-06 13:30:54,302 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "jbajkfba"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:38) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:52) [classes/:?]
+FILE [ERROR] 2022-02-06 13:30:57,633 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "asdjknasd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:38) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:52) [classes/:?]
+FILE [ERROR] 2022-02-06 13:30:59,219 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "asdjkas"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:38) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:52) [classes/:?]
+FILE [ERROR] 2022-02-06 13:31:11,818 main SortView logger: - Invalid input to the console for getDesiredMethodType
+java.lang.NumberFormatException: For input string: "jdksmald"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.getDesiredMethodType(SortView.java:42) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:52) [classes/:?]
+FILE [INFO ] 2022-02-06 13:31:13,277 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 13:31:13,277 main Sort Controller logger: - Sort Initiated!
+FILE [INFO ] 2022-02-06 13:31:13,277 main MergeSort logger: - Sort is complete!
