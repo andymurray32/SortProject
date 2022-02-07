@@ -37,7 +37,9 @@ This program specifically uses: merge and bubble sort as well Binary Search Tree
 
 The repository is public on GitHub, to which the program can be downloaded as a ZIP file ,by clicking on 'Code' and opened on an appropriate IDE that supports the dependencies. 
 
-![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort1.png)
+![](\SortScreenshots\sort1.png)
+
+
 
 After the program is extracted and opened, the Dependencies must be setup. Open the **'pom.xml'** file, right click on available space and select 'Generate' then 'Dependency'. From this point, searching  'Jupiter' and  then 'log4j' will get the results needed. Below is a screenshot of the dependency needed (highlighted in blue).
 
