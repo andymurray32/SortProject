@@ -37,19 +37,19 @@ This program specifically uses: merge and bubble sort as well Binary Search Tree
 
 The repository is public on GitHub, to which the program can be downloaded as a ZIP file ,by clicking on 'Code' and opened on an appropriate IDE that supports the dependencies. 
 
-![](\SortScreenshots\sort1.png)
+![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/sort1.png?raw=true)
 
 
 
 After the program is extracted and opened, the Dependencies must be setup. Open the **'pom.xml'** file, right click on available space and select 'Generate' then 'Dependency'. From this point, searching  'Jupiter' and  then 'log4j' will get the results needed. Below is a screenshot of the dependency needed (highlighted in blue).
 
-![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort2.png)
+![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/sort2.png?raw=true)
 
-![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort3.png)
+![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/sort3.png?raw=true)
 
 If you are unable to do this, you can copy and paste the [dependency]() code into your 'pom.xml' file and install it from there. 
 
-After this process, you must refresh **maven** through a tool that appears after changes are made.			![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort10.png)
+After this process, you must refresh **maven** through a tool that appears after changes are made.	![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/sort10.png?raw=true)
 
 Finally, once the project is built, run 'SortManager'.
 
@@ -79,19 +79,19 @@ For each of the methods, the following was tested:
 
   To which all passed except for BstTest, to which 3/5 tests failed as shown below. However, when the tests are run individually, they pass, which I was not able to find out why. Below is the zero array failing when the whole test is run, then the screenshot below it shows it passing when ran individually.
 
-  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort5.png)
+  ![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/sort5.png?raw=true)
 
-  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort 6.png)
+  ![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/sort%206.png?raw=true)
 
   Bubble and merge tests:
 
-  <img src="C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\bubble.png" style="zoom:67%;" />
+  ![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/bubble.png?raw=true)
 
-  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\merge.png)
+  ![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/merge.png?raw=true)
 
   These test abled me to achieve 100% coverage on the sort methods:
 
-  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort6.png)
+  ![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/sort6.png?raw=true)
 
   Furthermore, precautions were taken using 'Enums' to reduce the potential for error when handling user input. As well as utilizing try catch blocks ensuring that only the appropriate input is used. These measures were taken after manually testing my program and attempting to account for user input which may cause errors.
 
@@ -99,7 +99,7 @@ For each of the methods, the following was tested:
 
   Ultimately, the program behaves as predicted.
 
-  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort7.png)
+  ![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/sort7.png?raw=true)
 
 ### User input
 
@@ -113,9 +113,9 @@ Below is an example of user input (and output) to which they will be asked:
 
 - Whether they would like to add more methods for comparison
 
-  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort8.png)
+  ![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/sort8.png?raw=true)
 
-  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort9.png)
+  ![Download](https://github.com/andymurray32/SortProject/blob/main/SortScreenshots/sort9.png?raw=true)
 
   
 
