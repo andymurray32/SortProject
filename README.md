@@ -37,17 +37,17 @@ This program specifically uses: merge and bubble sort as well Binary Search Tree
 
 The repository is public on GitHub, to which the program can be downloaded as a ZIP file ,by clicking on 'Code' and opened on an appropriate IDE that supports the dependencies. 
 
-![image-20220207053011640](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207053011640.png)
+![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort1.png)
 
 After the program is extracted and opened, the Dependencies must be setup. Open the **'pom.xml'** file, right click on available space and select 'Generate' then 'Dependency'. From this point, searching  'Jupiter' and  then 'log4j' will get the results needed. Below is a screenshot of the dependency needed (highlighted in blue).
 
-![image-20220207053605649](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207053605649.png)
+![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort2.png)
 
-![image-20220207053730253](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207053730253.png)
+![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort3.png)
 
 If you are unable to do this, you can copy and paste the [dependency]() code into your 'pom.xml' file and install it from there. 
 
-After this process, you must refresh **maven** through a tool that appears after changes are made.					![image-20220207054200868](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207054200868.png)
+After this process, you must refresh **maven** through a tool that appears after changes are made.			![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort10.png)
 
 Finally, once the project is built, run 'SortManager'.
 
@@ -77,19 +77,19 @@ For each of the methods, the following was tested:
 
   To which all passed except for BstTest, to which 3/5 tests failed as shown below. However, when the tests are run individually, they pass, which I was not able to find out why. Below is the zero array failing when the whole test is run, then the screenshot below it shows it passing when ran individually.
 
-  ![image-20220207055918309](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207055918309.png)
+  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort5.png)
 
-  ![image-20220207055523041](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207055523041.png)
+  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort 6.png)
 
-  ![image-20220207060054398](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207060054398.png)
+  Bubble and merge tests:
 
-  An example of the Merge and Bubble sort tests:
+  <img src="C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\bubble.png" style="zoom:67%;" />
 
-  ![image-20220207060153663](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207060153663.png)
+  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\merge.png)
 
   These test abled me to achieve 100% coverage on the sort methods:
 
-  ![image-20220207060328974](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207060328974.png)
+  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort6.png)
 
   Furthermore, precautions were taken using 'Enums' to reduce the potential for error when handling user input. As well as utilizing try catch blocks ensuring that only the appropriate input is used. These measures were taken after manually testing my program and attempting to account for user input which may cause errors.
 
@@ -97,7 +97,7 @@ For each of the methods, the following was tested:
 
   Ultimately, the program behaves as predicted.
 
-  ![image-20220207060739783](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207060739783.png)
+  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort7.png)
 
 ### User input
 
@@ -111,8 +111,10 @@ Below is an example of user input (and output) to which they will be asked:
 
 - Whether they would like to add more methods for comparison
 
-  ![image-20220207061728629](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207061728629.png)
+  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort8.png)
 
-  ![image-20220207061911753](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207061911753.png)
+  ![](C:\Users\andre\Documents\GitHub\SortProject\SortScreenshots\sort9.png)
+
+  
 
   
