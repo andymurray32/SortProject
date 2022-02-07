@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
 
 public class BubbleSort implements Method {
-    private static Logger logger = LogManager.getLogger("BubbleSort logger:");
+    private static final Logger logger = LogManager.getLogger("BubbleSort logger:");
 
     public static void bubbleSort(int[] arr) {
         int swapCount = 0;

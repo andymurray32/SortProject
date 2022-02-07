@@ -17,3 +17,63 @@ FILE [INFO ] 2022-02-06 22:17:40,393 main SortView logger: - User has selected a
 FILE [INFO ] 2022-02-06 22:17:45,601 main Sort Controller logger: - Sort Initiated for MergeSort
 FILE [INFO ] 2022-02-06 22:17:45,602 main Sort Controller logger: - Sort Initiated for MergeSort
 FILE [INFO ] 2022-02-06 22:17:45,603 main Sort Controller logger: - Sort Initiated for BubbleSort
+FILE [INFO ] 2022-02-06 22:35:01,492 main SortView logger: - User has selected an array size of: 10
+FILE [INFO ] 2022-02-06 22:35:02,875 main SortView logger: - User has selected to Randomly generate array
+FILE [INFO ] 2022-02-06 22:35:04,210 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:35:07,159 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:35:09,207 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:35:10,749 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:35:17,781 main Sort Controller logger: - Sort Initiated for BubbleSort
+FILE [INFO ] 2022-02-06 22:35:17,784 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:35:17,785 main Sort Controller logger: - Sort Initiated for MergeSort
+FILE [INFO ] 2022-02-06 22:35:17,785 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:35:17,785 main Sort Controller logger: - Sort Initiated for BubbleSort
+FILE [INFO ] 2022-02-06 22:35:17,785 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:35:17,786 main Sort Controller logger: - Sort Initiated for MergeSort
+FILE [INFO ] 2022-02-06 22:35:17,786 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:36:58,311 main SortView logger: - User has selected an array size of: 10
+FILE [INFO ] 2022-02-06 22:36:59,518 main SortView logger: - User has selected to Enter input manually
+FILE [INFO ] 2022-02-06 22:37:01,560 main SortView logger: - User has selected 2 as the 0 Index
+FILE [INFO ] 2022-02-06 22:37:02,782 main SortView logger: - User has selected 1 as the 1 Index
+FILE [INFO ] 2022-02-06 22:37:03,729 main SortView logger: - User has selected 2 as the 2 Index
+FILE [INFO ] 2022-02-06 22:37:04,500 main SortView logger: - User has selected 3 as the 3 Index
+FILE [INFO ] 2022-02-06 22:37:05,175 main SortView logger: - User has selected 5 as the 4 Index
+FILE [INFO ] 2022-02-06 22:37:05,921 main SortView logger: - User has selected 1 as the 5 Index
+FILE [INFO ] 2022-02-06 22:37:06,624 main SortView logger: - User has selected 2 as the 6 Index
+FILE [INFO ] 2022-02-06 22:37:07,183 main SortView logger: - User has selected 5 as the 7 Index
+FILE [INFO ] 2022-02-06 22:37:07,729 main SortView logger: - User has selected 6 as the 8 Index
+FILE [INFO ] 2022-02-06 22:37:08,212 main SortView logger: - User has selected 8 as the 9 Index
+FILE [INFO ] 2022-02-06 22:37:10,733 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:37:12,962 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:37:14,945 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:37:17,173 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:37:19,331 main Sort Controller logger: - Sort Initiated for BubbleSort
+FILE [INFO ] 2022-02-06 22:37:19,331 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:37:19,332 main Sort Controller logger: - Sort Initiated for MergeSort
+FILE [INFO ] 2022-02-06 22:37:19,333 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:37:19,333 main Sort Controller logger: - Sort Initiated for MergeSort
+FILE [INFO ] 2022-02-06 22:37:19,333 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:37:19,333 main Sort Controller logger: - Sort Initiated for MergeSort
+FILE [INFO ] 2022-02-06 22:37:19,333 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:38:01,129 main SortView logger: - User has selected an array size of: 5
+FILE [INFO ] 2022-02-06 22:38:02,401 main SortView logger: - User has selected to Randomly generate array
+FILE [INFO ] 2022-02-06 22:38:03,819 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:38:05,479 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:38:07,389 main Sort Controller logger: - Sort Initiated for MergeSort
+FILE [INFO ] 2022-02-06 22:38:07,390 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:38:07,391 main Sort Controller logger: - Sort Initiated for BubbleSort
+FILE [INFO ] 2022-02-06 22:38:07,392 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:38:44,184 main SortView logger: - User has selected an array size of: 5
+FILE [INFO ] 2022-02-06 22:38:45,928 main SortView logger: - User has selected to Randomly generate array
+FILE [INFO ] 2022-02-06 22:38:47,394 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:38:50,532 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:38:52,297 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:38:53,859 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-06 22:38:56,875 main Sort Controller logger: - Sort Initiated for BubbleSort
+FILE [INFO ] 2022-02-06 22:38:56,878 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:38:56,880 main Sort Controller logger: - Sort Initiated for MergeSort
+FILE [INFO ] 2022-02-06 22:38:56,880 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:38:56,880 main Sort Controller logger: - Sort Initiated for MergeSort
+FILE [INFO ] 2022-02-06 22:38:56,880 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-06 22:38:56,881 main Sort Controller logger: - Sort Initiated for BubbleSort
+FILE [INFO ] 2022-02-06 22:38:56,881 main BubbleSort logger: - Sort is complete!

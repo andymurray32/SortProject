@@ -10,18 +10,16 @@ import java.util.Arrays;
 public class SortManager {
 
 
-
-    private static Logger logger = LogManager.getLogger("SortManager logger:");
+    private static final Logger logger = LogManager.getLogger("SortManager logger:");
 
     public static void main(String[] args) {
 
         SortView v = new SortView();
         SortController sc = new SortController();
-        int[] a= v.arrChoice();
-        int[] b = Arrays.copyOf(a, a.length);
-        //StringBuilder str=(v.getDesiredMethodType());
-        String str= String.valueOf(v.getDesiredMethodType());
+        int[] a = v.arrChoice();
+        String str = String.valueOf(v.getDesiredMethodType());
         sc.initiateSort(a, str);
+        logger.info("All sorts are complete!");
 
     }
 }

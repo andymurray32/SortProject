@@ -1,15 +1,13 @@
 package com.spartaglobal.sortingalgo.Controller;
 
-import com.spartaglobal.sortingalgo.Model.BubbleMethod;
-import com.spartaglobal.sortingalgo.Model.MergeMethod;
-import com.spartaglobal.sortingalgo.Model.Method;
-import com.spartaglobal.sortingalgo.Model.MethodSort;
+import com.spartaglobal.sortingalgo.Model.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jetbrains.annotations.NotNull;
 
 
 public class SortController {
-    private static Logger logger = LogManager.getLogger("Sort Controller logger:");
+    private static final Logger logger = LogManager.getLogger("Sort Controller logger:");
 
     public static Method getMethod(String methodType) {
         MethodSort ms;
@@ -17,12 +15,15 @@ public class SortController {
             ms = new BubbleMethod();
         } else if (methodType.equalsIgnoreCase("mergesort")) {
             ms = new MergeMethod();
+        } else if (methodType.equalsIgnoreCase("bst")) {
+            ms = new BstMethod();
         } else {
             logger.warn("get method returned a null");
             ms = null;
         }
         return ms.getInstance();
     }
+
     /**
      * @param arr
      * @return String of sorted array
@@ -32,26 +33,28 @@ public class SortController {
         for (int i = 0; i < arr.length; i++) {
             sb.append(arr[i] + " ");
         }
-        if(sb.isEmpty()==Boolean.FALSE) {
+        if (sb.isEmpty() == Boolean.FALSE) {
             sb.deleteCharAt(sb.lastIndexOf(" "));
         }
         return sb;
     }
 
 
-    public void initiateSort(int[] array,  String desiredMethodType){
+    public void initiateSort(int[] array, @NotNull String desiredMethodType) {
         System.out.println("\n Before sort: " + print(array));
-
-
-//        if(strBuilderMethodType.isEmpty()){
-//            logger.warn("Sort Initiated!");
-//        }
+        System.out.println("------------------------------------------\n");
         String[] a = desiredMethodType.split(" ");
-        for(int i=0; i<a.length;i++){
-            Method m= getMethod(a[i]);
-            logger.info("Sort Initiated for "+a[i]);
+        for (int i = 0; i < a.length; i++) {
+            Method m = getMethod(a[i]);
+            logger.info("Sort Initiated for " + a[i]);
+            long startTime = System.currentTimeMillis();
             m.sort(array);
-            System.out.println("Using "+a[i]+" for sort:" + print(array));
+            long endTime = System.currentTimeMillis();
+            long timeElapsed = endTime - startTime;
+            System.out.println("Method " + (i + 1));
+            System.out.println(a[i] + " :" + print(array));
+            System.out.println("Time taken (ms):" + timeElapsed);
+            System.out.println("------------------------------------------\n");
             //System.out.println("Time taken");
         }
 

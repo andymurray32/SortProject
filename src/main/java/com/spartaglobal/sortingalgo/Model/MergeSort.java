@@ -4,17 +4,17 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class MergeSort implements Method {
-    private static Logger logger = LogManager.getLogger("MergeSort logger:");
+    private static final Logger logger = LogManager.getLogger("MergeSort logger:");
 
     // Merges the left and right array
-    public static void merge(int arr[], int l, int m, int r) {
+    public static void merge(int[] arr, int l, int m, int r) {
         // Find sizes of two subarrays to be merged
         int size1 = m - l + 1;
         int size2 = r - m;
 
         /* Create temp arrays */
-        int L[] = new int[size1];
-        int R[] = new int[size2];
+        int[] L = new int[size1];
+        int[] R = new int[size2];
 
         /*Copy data to temp arrays*/
         for (int i = 0; i < size1; ++i)
@@ -54,7 +54,7 @@ public class MergeSort implements Method {
     }
 
     // prep values for merge and call function
-    public static void sort(int arr[], int l, int r) {
+    public static void sort(int[] arr, int l, int r) {
         if (l < r) {
             //cal middle
             int m = l + (r - l) / 2;
