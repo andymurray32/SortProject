@@ -77,3 +77,17 @@ FILE [INFO ] 2022-02-06 22:38:56,880 main Sort Controller logger: - Sort Initiat
 FILE [INFO ] 2022-02-06 22:38:56,880 main MergeSort logger: - Sort is complete!
 FILE [INFO ] 2022-02-06 22:38:56,881 main Sort Controller logger: - Sort Initiated for BubbleSort
 FILE [INFO ] 2022-02-06 22:38:56,881 main BubbleSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-07 06:06:51,267 main SortView logger: - User has selected an array size of: 5
+FILE [ERROR] 2022-02-07 06:06:53,853 main SortView logger: - Invalid input to the console for choice for array
+java.lang.NumberFormatException: For input string: "sfhdjsfh"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:786) ~[?:?]
+	at com.spartaglobal.sortingalgo.View.SortView.arrChoice(SortView.java:66) [classes/:?]
+	at com.spartaglobal.sortingalgo.SortManager.main(SortManager.java:19) [classes/:?]
+FILE [INFO ] 2022-02-07 06:15:57,847 main SortView logger: - User has selected an array size of: 20
+FILE [INFO ] 2022-02-07 06:15:59,617 main SortView logger: - User has selected to Randomly generate array
+FILE [INFO ] 2022-02-07 06:16:02,135 main SortView logger: - User has selected a Sort method
+FILE [INFO ] 2022-02-07 06:16:06,863 main Sort Controller logger: - Sort Initiated for MergeSort
+FILE [INFO ] 2022-02-07 06:16:06,863 main MergeSort logger: - Sort is complete!
+FILE [INFO ] 2022-02-07 06:16:06,867 main SortManager logger: - All sorts are complete!

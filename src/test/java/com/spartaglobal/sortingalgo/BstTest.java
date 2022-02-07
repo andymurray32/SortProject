@@ -19,8 +19,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
             //arrange
             //Act
             String result= String.valueOf(print(a));
-            System.out.println(result);
-            System.out.println(expected);
             //Assert
             assertEquals(expected, result);
         }
@@ -34,8 +32,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
             //arrange
             //Act
             String result= String.valueOf(print(a));
-            System.out.println(result);
-            System.out.println(expected);
+
             //Assert
             assertEquals(expected, result);
         }
@@ -49,8 +46,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
             //arrange
             //Act
             String result= String.valueOf(print(a));
-            System.out.println(result);
-            System.out.println(expected);
+
             //Assert
             assertEquals(expected, result);
         }
@@ -64,11 +60,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
             //arrange
             //Act
             String result= String.valueOf(print(a));
-            System.out.println(result);
-            System.out.println(expected);
+
             //Assert
-            System.out.println(result);
-            System.out.println(expected);
+
             assertEquals(expected, result);
         }
 

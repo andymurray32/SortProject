@@ -1,111 +1,118 @@
-Best-README-Template
-An awesome README template to jumpstart your projects!
-Explore the docs »
+# Sorting Project
 
-View Demo · Report Bug · Request Feature
+A program that sorts array using various sorting methods.
 
-Table of Contents
-About The Project
-Product Name Screen Shot
+## Description
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This program specifically uses: merge and bubble sort as well Binary Search Tree to organise an array of Integers into ascending. The output of the program consists of the time taken for the sort to be completed in addition to the sorted array. Furthermore, multiple sorting methods can be selected for a given array which must be entered by the user in the console. The architecture of the program follows MVC and Factory design to promote low coupling. Lastly, log4j is used to log important aspects of the program in addition to the unit testing for the sorting methods.
 
-Here's why:
+## Getting Started
 
-Your time should be focused on creating something amazing. A project that solves a problem and helps others
-You shouldn't be doing the same tasks over and over like creating a README from scratch
-You should implement DRY principles to the rest of your life :smile:
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+### Dependencies
 
-Use the BLANK_README.md to get started.
+- JUnit  Dependency (Used for testing the sorting methods)
 
-(back to top)
+  ```
+  <dependencies>
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter</artifactId>
+          <version>5.8.2</version>
+      </dependency>
+  ```
 
-Built With
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+- Log4j Dependency (Used to important details)
 
-Next.js
-React.js
-Vue.js
-Angular
-Svelte
-Laravel
-Bootstrap
-JQuery
-(back to top)
+  ```
+  <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.17.1</version>
+  </dependency>
+  ```
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+  
 
-Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
+### Setting up the project
 
-npm
-npm install npm@latest -g
-Installation
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
+The repository is public on GitHub, to which the program can be downloaded as a ZIP file ,by clicking on 'Code' and opened on an appropriate IDE that supports the dependencies. 
 
-Get a free API Key at https://example.com
-Clone the repo
-git clone https://github.com/your_username_/Project-Name.git
-Install NPM packages
-npm install
-Enter your API in config.js
-const API_KEY = 'ENTER YOUR API';
-(back to top)
+![image-20220207053011640](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207053011640.png)
 
-Usage
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+After the program is extracted and opened, the Dependencies must be setup. Open the **'pom.xml'** file, right click on available space and select 'Generate' then 'Dependency'. From this point, searching  'Jupiter' and  then 'log4j' will get the results needed. Below is a screenshot of the dependency needed (highlighted in blue).
 
-For more examples, please refer to the Documentation
+![image-20220207053605649](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207053605649.png)
 
-(back to top)
+![image-20220207053730253](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207053730253.png)
 
-Roadmap
-Add Changelog
-Add back to top links
-Add Additional Templates w/ Examples
-Add "components" document to easily copy & paste sections of the readme
-Multi-language Support
-Chinese
-Spanish
-See the open issues for a full list of proposed features (and known issues).
+If you are unable to do this, you can copy and paste the [dependency]() code into your 'pom.xml' file and install it from there. 
 
-(back to top)
+After this process, you must refresh **maven** through a tool that appears after changes are made.					![image-20220207054200868](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207054200868.png)
 
-Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Finally, once the project is built, run 'SortManager'.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+### Phases
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-(back to top)
+This project was undertaken in 5 distinct phases
 
-License
-Distributed under the MIT License. See LICENSE.txt for more information.
+- Phase 1- Implement Bubble and Merge sort with JUnit test cases
+- Phase 2- Refactor to incorporate MVC and factory design
+- Phase 3- Add logs using log4j 
+- Phase 4- Implement Binary Search Tree with appropriate tests
+- Phase 5- Allow user to compare the different time complexity of the sorts with user input
 
-(back to top)
+### Testing
 
-Contact
-Your Name - @your_twitter - email@example.com
+For each of the methods, the following was tested:
 
-Project Link: https://github.com/your_username/repo_name
+- Given an empty array
 
-(back to top)
+- Given only positive numbers
 
-Acknowledgments
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+- Given negative numbers
 
-Choose an Open Source License
-GitHub Emoji Cheat Sheet
-Malven's Flexbox Cheatsheet
-Malven's Grid Cheatsheet
-Img Shields
-GitHub Pages
-Font Awesome
-React Icons
-(back to top)
+- Given 0's 
+
+- Given uneven length
+
+  To which all passed except for BstTest, to which 3/5 tests failed as shown below. However, when the tests are run individually, they pass, which I was not able to find out why. Below is the zero array failing when the whole test is run, then the screenshot below it shows it passing when ran individually.
+
+  ![image-20220207055918309](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207055918309.png)
+
+  ![image-20220207055523041](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207055523041.png)
+
+  ![image-20220207060054398](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207060054398.png)
+
+  An example of the Merge and Bubble sort tests:
+
+  ![image-20220207060153663](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207060153663.png)
+
+  These test abled me to achieve 100% coverage on the sort methods:
+
+  ![image-20220207060328974](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207060328974.png)
+
+  Furthermore, precautions were taken using 'Enums' to reduce the potential for error when handling user input. As well as utilizing try catch blocks ensuring that only the appropriate input is used. These measures were taken after manually testing my program and attempting to account for user input which may cause errors.
+
+  An example of this can be seen where user input must correspond to the value of an enum which is already set, on top of checks that the input is in range of these values, whilst having a catch in place for an exception where user hasn't entered the appropriate input. Therefore, making user input a small set of values which reduces risk when handling the data in the Controller. 
+
+  Ultimately, the program behaves as predicted.
+
+  ![image-20220207060739783](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207060739783.png)
+
+### User input
+
+Below is an example of user input (and output) to which they will be asked:
+
+- How big they would like the array
+
+- Whether they want to enter the values in the array or have it randomly generated
+
+- What method they would like to use
+
+- Whether they would like to add more methods for comparison
+
+  ![image-20220207061728629](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207061728629.png)
+
+  ![image-20220207061911753](C:\Users\andre\AppData\Roaming\Typora\typora-user-images\image-20220207061911753.png)
+
+  
